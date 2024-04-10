@@ -1,0 +1,11 @@
+CREATE TABLE Schedule (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    date DATE,
+    event TEXT
+);
+
+CREATE TABLE Mood (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    date DATE,
+    mood TEXT
+);
